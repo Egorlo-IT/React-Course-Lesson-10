@@ -1,0 +1,56 @@
+.signup-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 65vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: #080106;
+}
+.signup-page .title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #7c5b70;
+  text-transform: uppercase;
+}
+
+.signup-page .icon-home {
+  font-size: 45px !important;
+  color: #7c5b70;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.signup-page .text {
+  text-align: justify;
+  margin: 0 0 10px;
+}
+
+.signup-page .box {
+  position: relative;;
+  border-radius: 25px;
+  max-width: 500px;
+  overflow: hidden;
+}
+
+.signup-page .box .form {
+  width: unset;
+}
+
+.signup-page .line-progress {
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.signup-page .alert {
+  margin-bottom: 10px;
+}
+
+.signup-page .css-1pxa9xg-MuiAlert-message {
+  text-align: left;
+}

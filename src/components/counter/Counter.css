@@ -1,0 +1,45 @@
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 38px;
+  color: #080106;
+  margin-bottom: 50px;
+}
+
+.counter .counter-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter .counter-text {
+  color: #7c5b70;
+}
+
+.counter .counter-total {
+  font-size: 48px;
+  color: red;
+  margin-left: 10px;
+}
+
+.counter .button-group {
+  display: flex;
+  justify-content: center;
+}
+
+.counter .button-counter {
+  background-color: transparent;
+  display: block;
+  width: 100px;
+  margin: 5px;
+}
+
+.counter .button-clear {
+  background-color: #7c5b70;
+  display: block;
+  width: 100px;
+  margin: 5px;
+  color: #fff;
+}

@@ -1,0 +1,71 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #7c5b70;
+  font-size: calc(1.5vmin + 8px);
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: #fef6e4;
+  text-shadow: 4px 4px 2px #b56f63;
+  border-bottom: 1px solid #fff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.header .message-header {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.header .top-line {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.header .btn-login,
+.header .btn-profile {
+  cursor: pointer;
+  padding: 5px 10px;
+  width: unset;
+  text-transform: unset;
+  border-color: #fef6e4;
+  box-shadow: 0px 0px 23px #b56f63;
+  transition: ease 0.25s;
+}
+
+.header .btn-profile {
+  margin-right: 5px;
+}
+
+.header .btn-profile:hover,
+.header .btn-login:hover {
+  box-shadow: 0px 0px 33px #fc9988;
+  color: #ec6d56;
+}
+
+.header .btn-login:hover .link {
+  color: #ec6d56;
+}
+
+.header .link {
+  display: flex;
+  align-items: center;
+  color: #7c5b70;
+}
+
+.header .icon {
+  margin-left: 5px;
+}
+
+.header .top-line .greetings {
+  font-size: 19px;
+  text-shadow: none;
+  margin-right: 10px;
+}
+.header .btn-left {
+  margin-right: 10px;
+}

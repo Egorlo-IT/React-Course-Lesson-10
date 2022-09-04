@@ -1,0 +1,82 @@
+.cats {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 65vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: #080106;
+}
+.cats .title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #7c5b70;
+  text-transform: uppercase;
+}
+
+.cats .icon-home {
+  font-size: 45px !important;
+  color: #7c5b70;
+  cursor: pointer;
+  
+}
+
+.cats .gallery-box {
+  margin-bottom: 50px;
+}
+
+.cats .img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.cats .btn {
+  text-transform: uppercase;
+}
+
+.cats .btn-cats {
+  background-color: transparent;
+  margin: 0;
+}
+
+.link,
+.icon-refresh {
+  color: #7c5b70;
+}
+
+.cats .icon-smile,
+.cats .text-btn {
+  vertical-align: middle;
+}
+
+.cats .icon-smile {
+  margin-left: 5px;
+}
+
+.cats .icon-home {
+  margin: 0;
+}
+
+.cats .icon-refresh {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.cats .btn-group {
+  justify-content: center;
+  margin-bottom: 25px;
+  align-items: center;
+}
+
+.cats .error, .cats .message {
+  color: red;
+  font-size: 21px;
+}
+
+.cats .message {
+  margin-bottom: 0;
+}
+
