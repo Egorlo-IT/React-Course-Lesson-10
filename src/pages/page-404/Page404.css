@@ -1,0 +1,17 @@
+.page-404 {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  background-image: url(../../image/Error404.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.icon-home {
+  font-size: 45px !important;
+  color: #7c5b70;
+  cursor: pointer;
+  margin-bottom: 50px;
+}

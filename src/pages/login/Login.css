@@ -1,0 +1,57 @@
+.login-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 65vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: #080106;
+}
+.login-page .title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #7c5b70;
+  text-transform: uppercase;
+}
+
+.login-page .icon-home {
+  font-size: 45px !important;
+  color: #7c5b70;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.login-page .text {
+  text-align: justify;
+  margin: 0 0 10px;
+}
+
+.login-page .box {
+  position: relative;;
+  border-radius: 25px;
+  max-width: 500px;
+  overflow: hidden;
+}
+
+.login-page .box .form {
+  width: unset;
+}
+
+.login-page .line-progress {
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.login-page .alert {
+  margin-bottom: 10px;
+}
+
+.login-page .css-1pxa9xg-MuiAlert-message {
+  text-align: left;
+}
+
